@@ -127,33 +127,64 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Attack.h" />
+    <ClInclude Include="AttackBehavior.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="CloseRange.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Fireball.h" />
     <ClInclude Include="FireAbility.h" />
+    <ClInclude Include="Fly.h" />
     <ClInclude Include="Flyer.h" />
+    <ClInclude Include="ForwardMove.h" />
     <ClInclude Include="GameController.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="IceCube.h" />
     <ClInclude Include="IceAbility.h" />
+    <ClInclude Include="Jump.h" />
     <ClInclude Include="Kirby.h" />
+    <ClInclude Include="KirbyState.h" />
     <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="LongRange.h" />
+    <ClInclude Include="MoveBehavior.h" />
     <ClInclude Include="MovingObject.h" />
-    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Floor.h" />
     <ClInclude Include="PowerUp.h" />
     <ClInclude Include="Projectile.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SmartMove.h" />
     <ClInclude Include="SparkAbility.h" />
     <ClInclude Include="Sparky.h" />
+    <ClInclude Include="Stand.h" />
     <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="Swim.h" />
     <ClInclude Include="SwordAbility.h" />
     <ClInclude Include="Swordsman.h" />
     <ClInclude Include="UIManager.h" />
     <ClInclude Include="WaddleDee.h" />
+    <ClInclude Include="Walk.h" />
     <ClInclude Include="Wall.h" />
     <ClInclude Include="Water.h" />
     <ClInclude Include="WorldMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Attack.cpp" />
+    <ClCompile Include="AttackBehavior.cpp" />
+    <ClCompile Include="CloseRange.cpp" />
+    <ClCompile Include="Fly.cpp" />
+    <ClCompile Include="ForwardMove.cpp" />
+    <ClCompile Include="Jump.cpp" />
+    <ClCompile Include="KirbyState.cpp" />
+    <ClCompile Include="LongRange.cpp" />
+    <ClCompile Include="MoveBehavior.cpp" />
+    <ClCompile Include="SmartMove.cpp" />
+    <ClCompile Include="Stand.cpp" />
+    <ClCompile Include="Swim.cpp" />
+    <ClCompile Include="Walk.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
