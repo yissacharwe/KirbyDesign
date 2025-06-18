@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{29e3fda7-d946-4ea2-97e6-c85594d2417a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Still">
+      <UniqueIdentifier>{745c0b7f-da65-4e3b-885e-ed2bd68b7f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Moving">
+      <UniqueIdentifier>{aff5cbc6-de2c-4a17-8b77-f7e0ea877f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Moving\Enemy">
+      <UniqueIdentifier>{43360995-c71d-4a90-9133-f7e35a82df42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Moving\Enemy\Normal">
+      <UniqueIdentifier>{96bd6ae1-a775-4d2f-960f-5b0d8f50a7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Moving\Enemy\CloseRange">
+      <UniqueIdentifier>{c51d4026-be47-4ee2-bb0f-cb62ce16c11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Moving\Enemy\LongRange">
+      <UniqueIdentifier>{6ef110ab-8011-44cc-8c74-0d533fd1afb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PowerUps">
+      <UniqueIdentifier>{38827cab-59c2-420f-85ec-e677faffafc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordAbility.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="SparkAbility.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="FireAbility.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="IceAbility.h">
+      <Filter>Header Files\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files\Base\Still</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Base\Still</Filter>
+    </ClInclude>
+    <ClInclude Include="Kirby.h">
+      <Filter>Header Files\Base\Moving</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Base\Moving</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files\Base\Still</Filter>
+    </ClInclude>
+    <ClInclude Include="WaddleDee.h">
+      <Filter>Header Files\Base\Moving\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyer.h">
+      <Filter>Header Files\Base\Moving\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Base\Moving</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>Header Files\Base\Moving\Enemy\CloseRange</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparky.h">
+      <Filter>Header Files\Base\Moving\Enemy\CloseRange</Filter>
+    </ClInclude>
+    <ClInclude Include="IceCube.h">
+      <Filter>Header Files\Base\Moving\Enemy\LongRange</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Header Files\Base\Moving\Enemy\LongRange</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

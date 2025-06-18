@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAIAAQAAAAAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kirby">
+    <Position X="6.25" Y="2" Width="2" />
+    <Members>
+      <Method Name="fly" Hidden="true" />
+      <Method Name="swallow" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CIAAAAAAAAAAAASAAAIAAQAAAAAAAAAQAAABAAAMAQA=</HashCode>
+      <FileName>Kirby.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PowerUpType" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgQAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
